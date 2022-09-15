@@ -1,0 +1,27 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.home, 
+.menu, 
+.contact {
+    list-style: none;
+    background-color: red;
+    width: 10rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
